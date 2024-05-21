@@ -8,7 +8,7 @@ function palindrome(word) {
     return word === reverseWord
 };
 
-if (palindrome(userInput)) {
+if (palindrome(userInput.toLowerCase())) {
     console.log('Questa è una parola palindroma');
 } else {
     console.log('Questa non è una parola palindroma')
